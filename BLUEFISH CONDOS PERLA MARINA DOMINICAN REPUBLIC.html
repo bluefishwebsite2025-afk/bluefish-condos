@@ -61,75 +61,7 @@
 	</div>
 </div></script>
 <script type="text/x-handlebars-template" id="page_master">{{#if this.is_set}} {{#each pages}} {{#if this.is_set}} <div data-container="set" data-id="{{id}}"> {{>page_master}} </div> {{else}} {{>page}} {{/if}} {{/each}} {{else}} {{>page}} {{/if}}</script>
-<script type="text/x-handlebars-template" id="page">{{#if pin}} {{!-- Do not render pins in this view --}} {{else}} <div data-container="page" class="page_container" {{#if page_options.local_layout_options.split_responsive}}split-responsive {{else}}{{#if page_options.local_layout_options.split_layout}}split-layout {{/if}}{{/if}}local-style="{{id}}" data-id="{{id}}"> <div class="page container container_width" data-container="content" data-id="{{id}}"> <bodycopy class="bodycopy content content_padding">
-<!-- Static 4x3 Grid (injected for GitHub Pages) -->
-<div id="static-grid" style="max-width:1100px;margin:20px auto;padding:0 16px">
-  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
-    <a href="./Services - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_default.jpg" alt="Services - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">Services - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./Resort - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_20161029_113557.jpg" alt="Resort - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">Resort - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./Rentals - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_ab3.jpg" alt="Rentals - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">Rentals - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./Sales - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_ab3-sale.jpeg" alt="Sales - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">Sales - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./GROUND FLOOR INLAND VIEW APARTMENT Ref_T1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_1.jpg" alt="GROUND FLOOR INLAND VIEW APARTMENT Ref_T1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">GROUND FLOOR INLAND VIEW APARTMENT Ref_T1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./FIRST FLOOR GARDEN VIEW APARTMENT Ref_Y1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_20220322_120630.jpg" alt="FIRST FLOOR GARDEN VIEW APARTMENT Ref_Y1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">FIRST FLOOR GARDEN VIEW APARTMENT Ref_Y1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./SECOND FLOOR OCEAN VIEW APARTMENT Ref_F2 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_20170811_104420.jpg" alt="SECOND FLOOR OCEAN VIEW APARTMENT Ref_F2 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">SECOND FLOOR OCEAN VIEW APARTMENT Ref_F2 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./GROUND FLOOR TWO BEDROOM GARDEN VIEW Ref Z1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_20250407_115532.jpg" alt="GROUND FLOOR TWO BEDROOM GARDEN VIEW Ref Z1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">GROUND FLOOR TWO BEDROOM GARDEN VIEW Ref Z1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./SECOND FLOOR OCEAN VIEW CONDO Ref_D2 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_20190215_122023.jpg" alt="SECOND FLOOR OCEAN VIEW CONDO Ref_D2 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">SECOND FLOOR OCEAN VIEW CONDO Ref_D2 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./TWO BEDROOM OCEAN FRONT APARTMENT Ref_C1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_20171110_133934.jpg" alt="TWO BEDROOM OCEAN FRONT APARTMENT Ref_C1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">TWO BEDROOM OCEAN FRONT APARTMENT Ref_C1 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./THIRD FLOOR OCEAN FRONT APARTMENT Ref_G3 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_20230313_143317_Original.jpg" alt="THIRD FLOOR OCEAN FRONT APARTMENT Ref_G3 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">THIRD FLOOR OCEAN FRONT APARTMENT Ref_G3 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a><a href="./THIRD FLOOR OCEAN FRONT APARTMENT Ref_I3 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" style="text-decoration:none;color:inherit">
-      <div style="display:flex;flex-direction:column;gap:10px;background:#fff;border:1px solid #e6e6e6;border-radius:14px;padding:12px;box-shadow:0 1px 2px rgba(0,0,0,0.04)">
-        <img src="BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC_files/thumb_1(1).jpg" alt="THIRD FLOOR OCEAN FRONT APARTMENT Ref_I3 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC" style="width:100%;display:block;border-radius:10px;border:1px solid #eee;">
-        <div style="font-weight:600;font-size:14px">THIRD FLOOR OCEAN FRONT APARTMENT Ref_I3 - BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC</div>
-      </div>
-    </a>
-  </div>
-  <div style="margin-top:8px;color:#666;font-size:12px">* Static grid injected for GitHub Pages. Some previous dynamic features are disabled.</div>
-</div>
- <div class="page_content clearfix" data-elementresizer data-resize-parent> {{print "content"}} </div> {{{ page_options.svg_overlay }}} </bodycopy> </div> <div class="page_background"></div> <style class="local-css" data-target="{{id}}"> {{{ page_options.local_css }}} </style> {{#if_all backdrop backdrop_enabled}} <div data-backdrop="{{backdrop.backdrop_path}}" class="backdrop" data-view="Backdrop" data-id="{{id}}"> [script type="text/json" data-set="backdrop_data">{{{stringify backdrop}}}[/script> </div> {{/if_all}} </div> {{/if}}</script>
+<script type="text/x-handlebars-template" id="page">{{#if pin}} {{!-- Do not render pins in this view --}} {{else}} <div data-container="page" class="page_container" {{#if page_options.local_layout_options.split_responsive}}split-responsive {{else}}{{#if page_options.local_layout_options.split_layout}}split-layout {{/if}}{{/if}}local-style="{{id}}" data-id="{{id}}"> <div class="page container container_width" data-container="content" data-id="{{id}}"> <bodycopy class="bodycopy content content_padding"> <div class="page_content clearfix" data-elementresizer data-resize-parent> {{print "content"}} </div> {{{ page_options.svg_overlay }}} </bodycopy> </div> <div class="page_background"></div> <style class="local-css" data-target="{{id}}"> {{{ page_options.local_css }}} </style> {{#if_all backdrop backdrop_enabled}} <div data-backdrop="{{backdrop.backdrop_path}}" class="backdrop" data-view="Backdrop" data-id="{{id}}"> [script type="text/json" data-set="backdrop_data">{{{stringify backdrop}}}[/script> </div> {{/if_all}} </div> {{/if}}</script>
 <script type="text/x-handlebars-template" id="content">{{#each content}} {{#if pin}}{{!-- Do not render pins in this view --}} {{else}} {{#if this.is_set}} <div data-container="{{#if this.is_set}}set{{else}}page{{/if}}" data-id="{{id}}"> {{>page_master}} </div> {{else}} {{>page_master}} {{/if}} {{/if}} {{/each}}</script>
 <script type="text/x-handlebars-template" id="sitemenu"><div id="site_menu_panel"> <div id="site_menu" class="site_menu"> <div class="page-link home-link {{#if display_options.site_menu_options.show_homepage}} {{else}}hidden{{/if}}"> <a href="" rel="home_page">Homepage</a> <div class="break"></div> </div> {{#each site_menu_tree.pages}} {{>sitemenu_item}} {{/each}} <div class="close">×</div> </div> </div></script>
 <script type="text/x-handlebars-template" id="sitemenu_item">{{#if is_set}} {{#if in_nav}} <div class="set-link" data-link-pid="{{id}}" data-prevtype="{{previous_type}}"> {{#if_equal set_id 0}} {{#if has_children}} {{#if_equal previous_type "page"}} <div class="break"></div> {{/if_equal}} {{/if}} {{/if_equal}} {{#if in_nav}} <a href="{{project_url}}" rel="history">{{title}}</a> {{/if}} <div data-set-wrapper {{#if in_nav}}class="indent"{{/if}}> {{/if}} {{#each pages}} {{>sitemenu_item}} {{/each}} {{#if in_nav}} </div> </div> {{/if}} {{else}} {{#if in_nav}} <div class="page-link" data-link-pid="{{id}}" data-prevtype="{{previous_type}}"> <a href="{{project_url}}" rel="history">{{title}}</a> </div> {{/if}} {{/if}}</script>
