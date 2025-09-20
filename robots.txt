@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://bluefishwebsite2025-afk.github.io/bluefish-condos/sitemap.xml
+Sitemap: https://bluefishcondos.com/sitemap.xml
