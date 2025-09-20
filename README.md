@@ -1,6 +1,6 @@
 # Bluefish Condos — GitHub Pages Package
 
-This folder is ready to upload to a GitHub repository and serve via **GitHub Pages**.
+This folder is ready to upload to a GitHub repository and serve via **GitHub Pages**....
 
 ## What’s inside
 - `index.html` — a copy of your "BLUEFISH CONDOS PERLA MARINA DOMINICAN REPUBLIC.html" set as the homepage
